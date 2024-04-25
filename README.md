@@ -64,3 +64,11 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+开发要做的事
+1.与usd锚定
+    1.使用chainlink的price feed
+    2.设置一个函数来交换eth & btc
+2.稳定机制：选用去中心化无人工干预的算法实现铸币和销毁
+    1.代码写死规则：人们铸币只能使用足够的抵押品
+3.抵押品类型：外部抵押 ，超额抵押使用weth和wbtc
